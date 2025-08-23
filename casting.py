@@ -52,5 +52,5 @@ data_int = int(data_str) #sting harus angka
 data_float = float(data_str) #string harus angka
 data_bool = bool(data_str) #false jika sting kosong
 print("data = ", data_int, ",type = ",type(data_int))
-#print("data = ", data_float, ",type = ",type(data_float))
+print("data = ", data_float, ",type = ",type(data_float))
 print("data = ", data_bool,  ",type = ",type(data_bool))
