@@ -45,12 +45,12 @@ print("data = ", data_float, ",type = ",type(data_float))
 print("")
 ##STRING
 print("=================STRING====================")
-data_str = "hallo"
+data_str = ""
 print("data = ", data_str, ",type = ",type(data_str))
 
-#data_int = int(data_str) #akan dibulatkan kebawah, misal value 9.9 maka hasilnya adalah 9 bukan 10
-#data_float = float(data_str) #akan false jika nilai = 0
-data_bool = bool(data_str)
-#print("data = ", data_int, ",type = ",type(data_int))
+data_int = int(data_str) #sting harus angka
+data_float = float(data_str) #string harus angka
+data_bool = bool(data_str) #false jika sting kosong
+print("data = ", data_int, ",type = ",type(data_int))
 #print("data = ", data_float, ",type = ",type(data_float))
 print("data = ", data_bool,  ",type = ",type(data_bool))
